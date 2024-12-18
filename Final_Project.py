@@ -1,6 +1,6 @@
 """
 item_dict={}
-f= open("D:/PP-08/data01.txt","r")
+f= open("data01.txt","r")
 while True:
     item = f.readline()
     if item=='':
@@ -105,8 +105,12 @@ while True:
               break
     else:
         continue
+<<<<<<< HEAD:Final_Project.py
 """
 f= open("D:/PP-08/data01.txt","r","w") 
+=======
+f= open("data01.txt","r","w") 
+>>>>>>> b11af92bd321151ca599563903be6377062d1359:Final_Project_Sweety.py
 for x in item_dict:
     f.write(x+"\n")
     f.write(str(item_dict[x][0])+"\n")
